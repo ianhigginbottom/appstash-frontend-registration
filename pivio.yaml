@@ -5,6 +5,10 @@ owner: frontend@meshlab.de
 description: "Central registration page"
 vcsroot: "https://travis-ci.org/ianhigginbottom/appstash-frontend-registration/"
 lifecycle: production
+relations:
+ - relApplicationToBusinessCapability:
+    - HR / Payroll
+    - HR / Accounting
 tags:
   - Angular
   - JavaScript
