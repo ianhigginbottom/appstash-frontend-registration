@@ -8,6 +8,8 @@ lifecycle: production
 relations:
  - relApplicationToBusinessCapability:
     - HR / Payroll
+ - relApplicationToITComponent:
+    - Test
 tags:
   - PIVIO
   - Angular
